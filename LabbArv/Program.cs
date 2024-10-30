@@ -1,6 +1,4 @@
-﻿using System.Reflection.PortableExecutable;
-
-namespace LabbArv
+﻿namespace LabbArv
 {
     public class Program
     {
