@@ -33,7 +33,12 @@
 
         public void Spacing()
         {
-          Console.WriteLine("\n////////////////////////////////////////////////////////////");
+            Console.WriteLine("\n////////////////////////////////////////////////////////////");
+        }
+
+        public virtual void DisplayInfo()
+        {
+            Console.WriteLine($"Name: {Name}, Species: {Species}, Age: {Age}, Weight: {Weight} kg, Habitat: {Habitat}");
         }
     }
 }

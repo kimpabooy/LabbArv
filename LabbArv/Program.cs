@@ -1,4 +1,6 @@
-﻿namespace LabbArv
+﻿using System.Reflection.PortableExecutable;
+
+namespace LabbArv
 {
     public class Program
     {
@@ -12,6 +14,11 @@
             AsiaticLion asiaticLion = new("Mufasa", "Asiatic Lion", 33, 150.4, "Forest", true, true);
             AsiaticLion asiaticLionNotEndanger = new("Mufasia", "Asiatic Lion", 33, 150.4, "Forest", true, false);
 
+            Eagle emptyEagle = new Eagle();
+            Elephant emptyElephant = new Elephant();
+            Lion emptyLion = new Lion();
+            AfricanLion emptyAfrikanLion = new AfricanLion();
+            AsiaticLion emptyAsiaticLion = new AsiaticLion();
 
             Console.WriteLine("\n////////////////////////////////////////////////////////////");
             Console.WriteLine("\nSOUNDS\n");
@@ -31,7 +38,14 @@
             asiaticLion.EndangerStatus();
             asiaticLionNotEndanger.EndangerStatus();
             Console.WriteLine("\n////////////////////////////////////////////////////////////");
-            
+
+
+            emptyEagle.DisplayInfo();
+            emptyElephant.DisplayInfo();
+            emptyLion.DisplayInfo();
+            emptyAfrikanLion.DisplayInfo();
+            emptyAsiaticLion.DisplayInfo();
+
             Console.ReadKey();
         }
     }
