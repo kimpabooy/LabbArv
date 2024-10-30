@@ -4,7 +4,12 @@
     {
         public string FeatherColor { get; set; } = "Brown";
 
-        public Eagle(string name = "Unknown", string species = "Eagle", int age = 0, double weight = 3.5, string habitat = "Open landscapes", string featherColor = "Brown") : base(name, species, age, weight, habitat)
+        public Eagle(string name = "Unknown",
+                     string species = "Eagle",
+                     int age = 0,
+                     double weight = 3.5,
+                     string habitat = "Open landscapes",
+                     string featherColor = "Brown") : base(name, species, age, weight, habitat)
         {
             FeatherColor = featherColor;
         }

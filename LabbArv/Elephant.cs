@@ -4,7 +4,12 @@
     {
         public double EarSize { get; set; } = 1.8;
 
-        public Elephant(string name = "Unknown", string species = "Elephant", int age = 0, double weight = 80, string habitat = "Grasslands", double earSize = 1.8) : base(name, species, age, weight, habitat)
+        public Elephant(string name = "Unknown",
+                        string species = "Elephant",
+                        int age = 0,
+                        double weight = 80,
+                        string habitat = "Grasslands",
+                        double earSize = 1.8) : base(name, species, age, weight, habitat)
         {
             EarSize = earSize;
         }

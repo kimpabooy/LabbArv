@@ -4,7 +4,13 @@
     {
         public bool IsEndangered { get; set; } = true;
 
-        public AsiaticLion(string name = "Unknown", string species = "Lion", int age = 0, double weight = 180.0, string habitat = "Forest", bool isKing = true, bool isEndangerd = true) : base(name, species, age, weight, habitat, isKing)
+        public AsiaticLion(string name = "Unknown",
+                           string species = "Lion",
+                           int age = 0,
+                           double weight = 180.0,
+                           string habitat = "Forest",
+                           bool isKing = true,
+                           bool isEndangerd = true) : base(name, species, age, weight, habitat, isKing)
         {
             IsEndangered = isEndangerd;
         }

@@ -4,7 +4,12 @@
     {
         public bool IsKing { get; set; } = true;
         
-        public Lion(string name = "Unknown", string species = "Lion", int age = 0, double weight = 150.0, string habitat = "Savannah", bool isKing = true) : base(name, species, age, weight, habitat)
+        public Lion(string name = "Unknown",
+                    string species = "Lion",
+                    int age = 0,
+                    double weight = 150.0,
+                    string habitat = "Savannah",
+                    bool isKing = true) : base(name, species, age, weight, habitat)
         {
             IsKing = isKing;
         }
