@@ -16,7 +16,7 @@
 
         public void Hunt()
         {
-            Console.WriteLine($"{Name} is hunting somewhere in the {Habitat}");
+            Console.WriteLine($"{Name} is hunting somewhere in the {Habitat}.");
         }
     }
 }
