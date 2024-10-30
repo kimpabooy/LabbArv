@@ -4,7 +4,13 @@
     {
         public bool IsAlpha { get; set; } = true;
 
-        public AfricanLion(string name = "Unknown", string species = "Lion", int age = 0, double weight = 200.0, string habitat = "Savannah", bool isKing = true, bool isAlpha = true) : base(name, species, age, weight, habitat, isKing)
+        public AfricanLion(string name = "Unknown",
+                           string species = "Lion",
+                           int age = 0,
+                           double weight = 200.0,
+                           string habitat = "Savannah",
+                           bool isKing = true,
+                           bool isAlpha = true) : base(name, species, age, weight, habitat, isKing)
         {
             IsAlpha = isAlpha;
         }
